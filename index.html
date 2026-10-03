@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Économiser 10 kg de CO₂e : à quoi renoncer ?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:wght@800&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3/dist/tabler-icons.min.css">
+<style>
+:root{
+  --paper:#ffffff; --ink:#17242A; --slate:#3C5560; --line:#C9D2CE;
+  --ochre:#B97A12; --ochre-bg:#F6E7C8;
+  --steel:#3E6A7A; --steel-bg:#DCE8EC;
+  --lichen:#6F8781; --lichen-bg:#E3E9E6;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:40px 20px 60px}
+h1,h2,.big{font-family:"Bricolage Grotesque",system-ui,sans-serif}
+header{display:grid;grid-template-columns:auto 1fr;gap:28px;align-items:center;margin-bottom:28px;padding-bottom:24px;border-bottom:2px solid var(--ink)}
+.weight{width:170px;height:150px;background:var(--ink);color:var(--paper);
+  clip-path:polygon(22% 0,78% 0,100% 100%,0 100%);display:flex;flex-direction:column;
+  align-items:center;justify-content:flex-end;padding-bottom:18px;position:relative}
+.weight::before{content:"";position:absolute;top:10px;left:50%;width:46px;height:34px;transform:translateX(-50%);
+  border:9px solid var(--paper);border-bottom:none;border-radius:30px 30px 0 0}
+.weight .big{font-size:54px;font-weight:800;line-height:1;letter-spacing:-1px}
+.weight small{font-size:14px;opacity:.85}
+h1{font-size:clamp(28px,4.4vw,44px);font-weight:800;line-height:1.08;margin:0 0 10px;letter-spacing:-.5px}
+.lead{margin:0;color:var(--slate);max-width:60ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px;margin-bottom:34px}
+.card{display:flex;flex-direction:column;background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+summary:focus-visible,a:focus-visible{outline:3px solid var(--ochre);outline-offset:2px}
+.ico{flex:none;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;background:var(--ochre-bg);color:var(--ochre)}
+.kicker{margin:0 0 3px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--slate)}
+.qty{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:26px;font-weight:800;line-height:1.1;margin:0}
+.what{margin:0 0 18px;font-size:15px}
+.extra{margin:-10px 0 18px;color:var(--slate);font-size:14px}
+details{margin-top:auto;padding-top:8px;border-top:1px solid var(--line);font-size:14px}
+summary{cursor:pointer;color:var(--slate);font-weight:700}
+details p{margin:8px 0}
+details ul{margin:4px 0 0;padding-left:20px}
+details li{margin:3px 0}
+a{color:var(--steel)}
+footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var(--slate)}
+@media (max-width:600px){
+  header{grid-template-columns:1fr}
+  .weight{width:140px;height:124px}
+  .weight .big{font-size:44px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div>
+    <h1>Pour éviter 10 kg de CO₂e, renoncez à : </h1>
+  </div>
+</header>
+
+<main class="grid">
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-meat" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Bœuf</p>
+        <p class="qty">300 g</p>
+      </div>
+    </div>
+    <p class="what">soit 2 steaks de 150 g</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Bœuf cru : de 28,9 kg CO₂e/kg (steak) à 35,7 kg CO₂e/kg (haché 5 %) selon la base Agribalyse de l'ADEME. 
+        Plus de 95 % des émissions viennent de l'élevage (méthane, alimentation des animaux).</p>
+      <ul>
+        <li><a href="https://doc.agribalyse.fr/documentation-en/agribalyse-data/documentation" target="_blank" rel="noopener">Agribalyse (ADEME) : documentation de la base</a></li>
+        <li><a href="https://www.linfodurable.fr/conso/pourquoi-le-boeuf-emet-il-plus-de-co2-que-les-autres-viandes-49951" target="_blank" rel="noopener">Pourquoi le bœuf émet plus que les autres viandes (L'info durable)</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-feather" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Poulet</p>
+        <p class="qty">2,2 kg</p>
+      </div>
+    </div>
+    <p class="what">cru, soit une dizaine de portions</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Poulet : 4,56 kg CO₂e/kg, cycle de vie complet jusqu'au rayon du supermarché : agriculture 66 %, transformation 18 %, emballage 8 %, transport 7 % (Agribalyse 3.2, mise à jour de janvier 2025). Pour comparaison : bœuf de 28,9 à 35,7 kg CO₂e/kg, pois chiches 0,9 kg CO₂e/kg (même base, état du produit non précisé). La cuisson et le trajet jusqu'à la maison ne sont pas comptés.</p>
+      <ul>
+        <li><a href="https://impactco2.fr/outils/alimentation/poulet" target="_blank" rel="noopener">Impact CO₂ (ADEME) : empreinte carbone du poulet</a></li>
+        <li><a href="https://impactco2.fr/outils/alimentation/poischiches" target="_blank" rel="noopener">Impact CO₂ (ADEME) : empreinte carbone des pois chiches</a></li>
+        <li><a href="https://doc.agribalyse.fr/documentation-en/agribalyse-data/documentation" target="_blank" rel="noopener">Agribalyse (ADEME) : documentation de la base</a></li>
+      </ul>
+    <p class="extra">Par kilo, le poulet émet 6 à 8 fois moins que le bœuf. Les pois chiches émettent encore environ 5 fois moins que le poulet.</p>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-temperature-minus" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Chauffage à 1 °C de moins</p>
+        <p class="qty">14 à 18 jours</p>
+      </div>
+    </div>
+    <p class="what">pendant lesquels le chauffage est allumé</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Hypothèses : logement de 80 m² consommant 100 kWh/m² par an, saison de chauffe de 200 jours, chauffage au mazout (≈ 0,3 kg CO₂e/kWh) ou au gaz (≈ 0,23 kg CO₂e/kWh). Chaque degré en moins économise environ 6 % de l'énergie de chauffage (SuisseEnergie). Avec une pompe à chaleur, l'économie de CO₂e est bien plus faible. L'économie en kWh est à peu près la même un jour à 0 °C ou à 5 °C ; elle est presque nulle quand le chauffage est éteint (en général au-delà de 12 à 15 °C dehors). Les 200 jours sont des jours de chauffe, pas des jours d'hiver au sens du calendrier.</p>
+      <ul>
+        <li><a href="https://pubdb.bfe.admin.ch/fr/publication/download/7190" target="_blank" rel="noopener">SuisseEnergie : Économiser l'énergie au quotidien (brochure)</a></li>
+        <li><a href="https://impactco2.fr/" target="_blank" rel="noopener">Impact CO₂ (ADEME) : comparateur chauffage</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-car" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Voiture thermique</p>
+        <p class="qty">46 km</p>
+      </div>
+    </div>
+    <p class="what">une personne à bord</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>0,218 kg CO₂e par km, fabrication et entretien du véhicule inclus (valeur ADEME). L'émission est "par voiture" et donc à partager entre le nombre de passagers.</p>
+      <ul>
+        <li><a href="https://agirpourlatransition.ademe.fr/particuliers/bureau/calculer-emissions-carbone-trajets" target="_blank" rel="noopener">Calculateur d'émissions des trajets (ADEME)</a></li>
+        <li><a href="https://mtaterre.fr/wp-content/uploads/2025/05/2025-05-06-transcription-impact-transport-voyage-4-jours.pdf" target="_blank" rel="noopener">Infographie ADEME : 1 000 km en avion, voiture ou TGV</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-plane" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Avion court-courrier</p>
+        <p class="qty">39 km</p>
+      </div>
+    </div>
+    <p class="what">en avion court-courrier, soit 10 % d'un vol Genève–Paris</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>0,259 kg CO₂e par km et par passager, effet des traînées de condensation inclus (valeur ADEME). Distance Genève–Paris en vol : environ 410 km.</p>
+      <p>En long courrier, on aurait environ 56 km par passager (les fortes émissions au décolage et à l'attérissage sont répartis sur plus de km)</p>
+      <ul>
+        <li><a href="https://mtaterre.fr/wp-content/uploads/2025/05/2025-05-06-transcription-impact-transport-voyage-4-jours.pdf" target="_blank" rel="noopener">Infographie ADEME : 1 000 km en avion, voiture ou TGV</a></li>
+        <li><a href="https://impactco2.fr/" target="_blank" rel="noopener">Impact CO₂ (ADEME) : comparateurs</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-train" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Train</p>
+        <p class="qty">1'400 à 3'400 km</p>
+      </div>
+    </div>
+    
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>TGV : 2,93 g CO₂e par km et par passager (avec taux de remplissage moyen), fabrication du train incluse (0,63 g) et électricité du réseau français (Base Empreinte de l'ADEME), soit environ 3'400 km. Trains des CFF : environ 7 g CO₂e par km selon les CFF, soit environ 1'400 km. Le train émet peu surtout parce que son électricité est largement renouvelable ou nucléaire ; un train diesel ou peu rempli émet davantage par passager.</p>
+      <ul>
+        <li><a href="https://impactco2.fr/outils/transport/tgv" target="_blank" rel="noopener">Impact CO₂ (ADEME) : empreinte carbone du TGV</a></li>
+        <li><a href="https://news.sbb.ch/fr/article/111186/voiture-electrique-ou-train-et-l-e-bike-est-il-vraiment-durable" target="_blank" rel="noopener">CFF : voiture électrique ou train ? Et l'e-bike est-il vraiment durable ?</a></li>
+      </ul>
+    </details>
+  </article>
+
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-message-chatbot" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">IA Chatbot</p>
+        <p class="qty">5'300 à 200'000 questions</p>
+      </div>
+    </div>
+    <p class="what">réponses en texte</p>
+    <p class="extra">À 20 questions par jour : de 9 mois à 27 ans.</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Par question : de 0,03 g CO₂e (Google Gemini, médiane mai 2025 ; méthode qui déduit les achats d'électricité renouvelable, donc optimiste) à 1,14 g CO₂e (Mistral Large 2, réponse de 400 tokens, fabrication des serveurs incluse). Amortissement de l'entraînement : ×1,67, car chez Google environ 2/5 de l'énergie liée à l'IA sert à l'entraînement et 3/5 à l'usage (Patterson et al., 2022). Les modèles « à raisonnement » et les longues conversations coûtent nettement plus.</p>
+      <ul>
+        <li><a href="https://mistral.ai/fr/news/our-contribution-to-a-global-environmental-standard-for-ai/" target="_blank" rel="noopener">Mistral AI : analyse de cycle de vie de Mistral Large 2</a></li>
+        <li><a href="https://hellofuture.orange.com/fr/une-empreinte-carbone-sous-surveillance-pour-lapprentissage-automatique/" target="_blank" rel="noopener">Orange Hello Future : synthèse des études Mistral et Google</a></li>
+        <li><a href="https://www.lemagit.fr/actualites/366627946/Bilan-environnemental-des-LLM-ce-que-revele-letude-de-Mistral-AI" target="_blank" rel="noopener">LeMagIT : ce que révèle l'étude de Mistral (entraînement vs usage)</a></li>
+        <li><a href="https://arxiv.org/abs/2204.05149v1" target="_blank" rel="noopener">Patterson et al. (2022) : The Carbon Footprint of ML Training</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-code" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Programmation avec agents IA</p>
+        <p class="qty">6 à 56 heures</p>
+      </div>
+    </div>
+    <p class="what">de programmation, avec deux ou trois agents en parallèle (« vibe coding »)</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Énergie par jour de programmation avec plusieurs agents Claude Code en parallèle : 1,3 kWh (S. Couch, janvier 2026 : une journée typique de « quelques heures » de programmation, avec 2 ou 3 agents à la fois) à 3 kWh, avec une fourchette de 1,2 à 5,9 kWh (Z. Hausfather, 2026, sur ses propres sessions ; il ne précise pas ce qu'il compte comme un « jour »). Pour passer en heures, j'ai supposé 4 heures de programmation par jour (aucune des deux sources ne donne de durée précise), soit de 0,3 à 2,8 kWh par heure. La borne basse (6 heures) correspond à la journée la plus chargée de Hausfather (11 kWh, avec plusieurs agents en parallèle) ; la borne haute (56 heures), à la journée la plus sobre de sa fourchette (1,2 kWh). Avec 3 heures par jour, on obtiendrait 5 à 42 heures ; avec 6 heures par jour, 9 à 83 heures. Conversion : 10 kg de CO₂e correspondent à environ 17 kWh (électricité à 0,4 kg CO₂e/kWh, facteur ×1,5 pour le matériel, comme pour les clips vidéo). Par message : environ 8 Wh (41 Wh par session médiane, 5 messages, selon Couch) à 150 Wh (Hausfather), contre 0,24 à 0,34 Wh pour une question simple à Gemini ou ChatGPT.</p>
+      <p>Un agent consomme bien plus qu'un chatbot (de 8 à 150 Wh, contre 0,3 Wh) parce qu'il renvoie au modèle, à chaque étape, tout l'historique et le code déjà lus (96 % des 3,2 milliards de tokens traités par Hausfather étaient des relectures du cache) et qu'il enchaîne des dizaines d'appels. Le raisonnement ajoute encore : en moyenne 30 fois plus d'énergie qu'avec le raisonnement désactivé, et plus de 150 fois pour certains modèles (AI Energy Score v2). Ces chiffres sont des estimations : les fournisseurs ne publient pas de mesures, les deux auteurs divergent d'un facteur 2 à 4, et Hausfather se décrit comme un utilisateur intensif. Une troisième estimation (G. Wittebolle, environ 0,7 kWh par session médiane, d'après les mesures de Jegham et al. 2025) rejoint celle de Hausfather et suggère même une consommation par heure plus élevée : c'est pourquoi la borne basse a été abaissée à 6 heures. Les trois estimations reposent sur les mêmes bases de départ (estimations publiques d'Epoch AI et d'une étude universitaire), pas sur des données publiées par les fournisseurs.</p>
+      <ul>
+        <li><a href="https://www.theclimatebrink.com/p/the-real-energy-use-of-agentic-ai" target="_blank" rel="noopener">Z. Hausfather : The real energy use of agentic AI (The Climate Brink, 2026)</a></li>
+        <li><a href="https://simonpcouch.com/blog/2026-01-20-cc-impact/" target="_blank" rel="noopener">S. Couch : Electricity use of AI coding agents (2026)</a></li>
+        <li><a href="https://dev.to/gwittebolle/how-much-co2-does-a-claude-code-session-actually-emit-1gna" target="_blank" rel="noopener">G. Wittebolle : How much CO₂ does a Claude Code session actually emit? (DEV, 2026)</a></li>
+        <li><a href="https://arxiv.org/abs/2505.09598" target="_blank" rel="noopener">Jegham et al. (2025) : How Hungry is AI? Benchmarking Energy, Water, and Carbon Footprint of LLM Inference</a></li>
+        <li><a href="https://huggingface.co/blog/sasha/ai-energy-score-v2" target="_blank" rel="noopener">AI Energy Score v2 : classement actualisé, avec le raisonnement (Hugging Face)</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-movie" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Vidéos générées par IA</p>
+        <p class="qty">18 à 170 clips</p>
+      </div>
+    </div>
+    <p class="what">de 5 secondes</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Énergie par clip : de ~0,1 kWh (modèles open source récents) à ~0,94 kWh (CogVideoX, mesure publiée par MIT Technology Review en 2025). Hypothèses : électricité à 0,4 kg CO₂e/kWh, facteur ×1,5 pour le matériel et l'amortissement de l'entraînement. L'énergie est multipliée par 4 quand la durée double : un clip de 10 s coûte environ 4 clips de 5 s.</p>
+      <ul>
+        <li><a href="https://arxiv.org/abs/2509.19222" target="_blank" rel="noopener">Delavande, Pierrard, Luccioni (Hugging Face, 2025) : Video Killed the Energy Budget</a></li>
+        <li><a href="https://simonwillison.net/2025/May/20/ai-energy-footprint/" target="_blank" rel="noopener">Résumé de l'enquête MIT Technology Review (S. Willison)</a></li>
+        <li><a href="https://andymasley.substack.com/p/reactions-to-mit-technology-reviews/comments" target="_blank" rel="noopener">Critique des chiffres du MIT (commentaires, A. Masley)</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-device-tv" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Streaming vidéo</p>
+        <p class="qty">280 à 2'500 heures</p>
+      </div>
+    </div>
+    <p class="what">de visionnage, selon l'appareil et le pays</p>
+    <p class="extra">Soit de 12 jours à 3 mois et demi, sans interruption.</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Chiffre de l'AIE pour une heure de streaming Netflix en 2019 : 36 g CO₂ avec l'électricité moyenne mondiale, soit environ 280 heures. Avec l'électricité très décarbonée de la France, une demi-heure émet environ 2 g, soit 4 g par heure et environ 2'500 heures. L'essentiel de la consommation vient des écrans, surtout des téléviseurs (hypothèse : 70 % de téléviseurs, 15 % d'ordinateurs, 10 % de tablettes, 5 % de smartphones), puis du réseau ; les centres de données pèsent peu. Ces chiffres datent de 2019. L'AIE a publié cette analyse pour corriger des estimations médiatiques bien trop élevées.</p>
+      <ul>
+        <li><a href="https://www.iea.org/commentaries/the-carbon-footprint-of-streaming-video-fact-checking-the-headlines" target="_blank" rel="noopener">AIE : The carbon footprint of streaming video, fact-checking the headlines (2020)</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-mail" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Mails stockés</p>
+        <p class="qty">1 à 3 To</p>
+      </div>
+    </div>
+    <p class="what">pendant un an, soit 13 à 40 millions de mails sans pièce jointe</p>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Stockage sur disque dur en centre de données : 1,1 à 3,5 kg CO₂e par To et par an selon la région (modèle Cloud Carbon Footprint), multiplié par 2 pour les copies de sécurité et par 1,5 pour la fabrication (hypothèses). Mail texte : environ 75 ko (hypothèse). Le chiffre souvent cité de « 10 g par mail stocké » repose sur des données dépassées. Supprimer ses mails consomme aussi de l'énergie ; le levier réel est d'en envoyer moins et de supprimer les gros fichiers.</p>
+      <ul>
+        <li><a href="https://www.climatiq.io/data/emission-factor/3b3605ee-f24b-49bf-a6a2-48dd3c33a314" target="_blank" rel="noopener">Climatiq : facteur d'émission stockage HDD, Google Cloud europe-north-1</a></li>
+        <li><a href="https://www.climatiq.io/data/emission-factor/47368de7-7bd8-4e54-93e6-26726506d034" target="_blank" rel="noopener">Climatiq : facteur d'émission stockage HDD, Google Cloud us-west-3</a></li>
+        <li><a href="https://www.letemps.ch/articles/en-video-peut-on-sauver-le-climat-en-envoyant-moins-d-e-mails" target="_blank" rel="noopener">Le Temps : peut-on sauver le climat en envoyant moins d'e-mails ?</a></li>
+        <li><a href="https://www.rtbf.be/article/est-il-vraiment-necessaire-de-supprimer-ses-mails-pour-sauver-la-planete-10895393" target="_blank" rel="noopener">RTBF : faut-il vraiment supprimer ses mails ?</a></li>
+      </ul>
+    </details>
+  </article>
+
+  <article class="card">
+    <div class="top">
+      <div class="ico"><i class="ti ti-device-mobile" aria-hidden="true"></i></div>
+      <div>
+        <p class="kicker">Smartphone neuf</p>
+        <p class="qty">1/8 de smartphone</p>
+      </div>
+    </div>
+    <details>
+      <summary>Hypothèses et sources</summary>
+      <p>Smartphone de référence (écran de 6,63 pouces, 8 Go de mémoire vive, 210 Go de stockage) : 80,2 kg CO₂e sur son cycle de vie, dont 99 % pour la fabrication et la distribution et seulement 1 % pour l'usage et la fin de vie (étude ADEME/ARCEP, mise à jour 2025). Durée de vie supposée : 2,5 ans, soit 32 kg CO₂e par an. Le matériel pèse donc plus que l'usage : garder son téléphone plus longtemps réduit l'impact annuel.</p>
+      <ul>
+        <li><a href="https://impactco2.fr/outils/numerique/smartphone" target="_blank" rel="noopener">Impact CO₂ (ADEME) : empreinte carbone d'un smartphone</a></li>
+      </ul>
+    </details>
+  </article>
+
+</main>
+
+<footer>
+  <p>CO₂e : équivalent CO₂, qui inclut les autres gaz à effet de serre (méthane, etc.). 
+    <br/>Ordres de grandeurs compilés en octobre 2026.
+    <br/>L'empreinte moyenne d'une personne en Suisse se compte en tonnes par an.</p>
+</footer>
+
+</div>
+
+</body>
+</html>
