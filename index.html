@@ -120,7 +120,7 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
         OWID reprend une valeur mondiale d’environ 9,9 kg CO₂e/kg de poulet (Poore et Nemecek, 2018).
         <br/>La fiche Impact CO₂ fondée sur Agribalyse 3.2 donne 4,56 kg CO₂e/kg pour le poulet vendu en France. 
         <br/>10 kg CO₂e correspondent donc à 1 à 2kg (soit 5 à 10 portions généreuses de 200g !)
-        <br/>Notez que sur le site, on trouve l'empreinte carbone pour de nombreux autres aliments et qu'on réalise que la viande est particulièrement émétrice.
+        <br/>Notez que sur le site, on trouve l'empreinte carbone pour de nombreux autres aliments et qu'on réalise que la viande est particulièrement éméttrice.
       </p>
       <ul>
         <li><a href="https://ourworldindata.org/grapher/ghg-per-kg-poore" target="_blank" rel="noopener">OWID : émissions par kilo d’aliment</a></li>
@@ -134,7 +134,7 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
     <div class="ico"><i class="ti ti-temperature-minus" aria-hidden="true"></i></div>
     <div>
       <p class="kicker">Chauffage à 1 °C de moins</p>
-      <p class="qty">8 à 10 jours</p>
+      <p class="qty">6 à 9 jours</p>
     </div>
   </div>
   <p class="what">dans un logement de 80 m² chauffé au mazout ou au gaz</p>
@@ -177,7 +177,7 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
       <div class="ico"><i class="ti ti-car" aria-hidden="true"></i></div>
       <div>
         <p class="kicker">Voiture à essence</p>
-        <p class="qty">environ 30 km</p>
+        <p class="qty">environ 120 km</p>
       </div>
     </div>
     <p class="what">pour une voiture, avec deux personnes à bord</p>
@@ -235,14 +235,13 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
         Pour un TGV, Impact CO₂ affiche 2,93 g CO₂e/km : 10 kg correspondent à environ 3 400 km. 
         <br/>Un Intercity est quant à lui indiqué à 8,98 g CO₂e/km : 10 kg correspondent à environ 1110 km. 
         <br/>Les CFF indiquent environ 7 g CO₂e par personne et par kilomètre : 10 kg correspondent à environ 1 400 km.
-        <br/>Les facteurs d’émissions courants du train ne couvrent pas nécessairement la fabrication du matériel roulant ni la construction de l’infrastructure. 
+        <br/>Les facteurs d’émissions courants du train ne couvrent pas nécessairement la construction de l’infrastructure. 
         Leur ajout dépend beaucoup du type de ligne et de son utilisation ; il peut être important pour une ligne nouvelle, notamment à grande vitesse.
       </p>
       <ul>
         <li><a href="https://impactco2.fr/outils/transport/tgv" target="_blank" rel="noopener">Impact CO₂ : TGV, 2,93 g CO₂e/km</a></li>
         <li><a href="https://news.sbb.ch/fr/019d7b7b-d93a-7ecd-bdd3-43ccde16e426/voiture-electrique-ou-train-et-l-e-bike-est-il-vraiment-durable" target="_blank" rel="noopener">CFF : émissions par personne-kilomètre (2022)</a></li>
         <li><a href="https://ourworldindata.org/travel-carbon-footprint" target="_blank" rel="noopener">OWID : comparaison internationale des transports</a></li>
-        <li><a href="https://prod-basecarbonesolo.ademe-dri.fr/documentation/UPLOAD_DOC_FR/index.htm?ferroviaire2.htm" target="_blank" rel="noopener">Ademe : impact des infrastructures ferrovières</a></li>
       </ul>
     </details>
   </article>
@@ -256,26 +255,27 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
       <div class="ico"><i class="ti ti-message-chatbot" aria-hidden="true"></i></div>
       <div>
         <p class="kicker">Questions à un chatbot IA</p>
-        <p class="qty">50 000 à 140 000 questions</p>
+        <p class="qty">50 000 à 70 000 questions</p>
       </div>
     </div>
-    <p class="what">questions courtes</p>
-    <p class="note">soit 30 questions par jour pendant environ 4 à 13 ans.</p>
+    <p class="what">questions courtes à des modèles tournant aux US</p>
+    <p class="note">soit 30 questions par jour pendant environ 6 ans.</p>
     <details>
       <summary>Hypothèses et sources</summary>
      <p>
   Énergie estimée par requête textuelle typique : 0,24 Wh pour Gemini et 0,34 Wh pour ChatGPT, en 2025. 
-  <br/>Le lieu de calcul et son approvisionnement électrique ne sont généralement pas connus. On fait donc le calcul avec un mix UE et un mix US.
-  <li> Avec le mix énergétique de l’UE en 2025 : 0,2099 kg CO₂e/kWh  (OWID, d’après Ember), 
-  avec un facteur ×1,5 ajouté pour les équipements et autres impacts indirects (estimation non sourcée) -> 0.31 g CO₂e/Wh
-  <br/>On arrive à 0,07 à 0,11 g CO₂e pour une requête courte.
-  <br/>10 kg correspondent alors à environ 90 000 à 142 000 questions.</li>
+  <br/>Le lieu de calcul et son approvisionnement électrique ne sont généralement pas connus. On fait donc le calcul avec un mix UE et un mix US.</p>
   <li>Avec un mix électrique états-unien : 0,384 kg CO₂e/kWh selon OWID d’après Ember  
   -> 0,58 g CO₂e/Wh avec le facteur ×1,5
   <br/>On arrive à 0,14 à 0,20 g CO₂e pour une requête courte.
-  <br/>10 kg correspondent alors à 50 000 à 71 000 questions.
+  <br/>10 kg correspondent alors à 50 000 à 72 000 questions.
   <br/>Les estimations sont difficiles à obtenir et OWID signale la fragilité de son chiffrage. On peut garder comme estimateur "pessimiste" qu'une requête correspond à environ 1 g CO₂e.
-</p>
+  </li>
+  <li> Avec le mix énergétique de l’UE en 2025 : 0,2099 kg CO₂e/kWh  (OWID, d’après Ember), 
+  avec un facteur ×1,5 ajouté pour les équipements et autres impacts indirects (estimation non sourcée) -> 0.31 g CO₂e/Wh
+  <br/>On arrive à 0,0756 à 0,11 g CO₂e pour une requête courte.
+  <br/>10 kg correspondent alors à environ 90 000 à 130 000 questions.</li>
+
 <ul>
   <li><a href="https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use" target="_blank" rel="noopener">OWID : consommation électrique des requêtes IA et limites des estimations</a></li>
         <li><a href="https://ourworldindata.org/grapher/carbon-intensity-electricity?tab=table&country=OWID_EU27" target="_blank" rel="noopener">Our World in Data / Ember : intensité de cycle de vie de l’électricité, UE</a></li>
@@ -481,6 +481,9 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
         <br/>La fabrication représente 79,3 kg, soit 99 % du total. 
         <br/>Garder son appareil plus longtemps répartit donc de manière importante l'impact.
       </p>
+      <ul>
+        <li><a href="https://impactco2.fr/outils/numerique/smartphone" target="_blank" rel="noopener">Impact CO₂ (ADEME) : empreinte carbone d'un smartphone</a></li>
+      </ul>
     </details>
   </article>
 
@@ -491,7 +494,7 @@ footer{border-top:2px solid var(--ink);padding-top:14px;font-size:14px;color:var
     CO₂e signifie « équivalent CO₂ » et permet de regrouper différents gaz
     à effet de serre selon leur effet climatique.
     <br>Ordres de grandeur compilés en octobre 2026.</p>
-    <p>Pincipales difficultés : 
+    <p>Principales difficultés : 
         <ul>
     <li>tenir compte non seulement de l'impact à l'utilisation mais aussi lors de la production, du transport, etc.</li>
     <li>faible qualité des données sur tout ce qui concerne l'IA.</li></ul>
